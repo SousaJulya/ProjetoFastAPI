@@ -1,0 +1,21 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos com variáveis de ambiente e credenciais
+.env
+.env.*
+
+# Permite compartilhar um exemplo sem credenciais reais
+!.env.example
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Banco de dados local
+banco.db
